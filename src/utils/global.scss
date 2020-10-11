@@ -1,0 +1,82 @@
+@import "colur-ui";
+
+.clearfix::after {
+  content: '.';
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+page {
+  background-color: $uni-bg-color-grey;
+}
+
+.font-sm {
+  font-size: $uni-font-size-sm;
+}
+
+.font-base {
+  font-size: $uni-font-size-base;
+}
+
+.font-lg {
+  font-size: $uni-font-size-lg;
+}
+
+.margin-left-sm {
+  margin-left: $uni-spacing-row-sm;
+}
+
+.margin-left-base {
+  margin-left: $uni-spacing-col-base;
+}
+
+.margin-left-lg {
+  margin-left: $uni-spacing-row-lg;
+}
+
+.margin-right-sm {
+  margin-right: $uni-spacing-row-sm;
+}
+
+.margin-right-base {
+  margin-right: $uni-spacing-row-base;
+}
+
+.margin-right-lg {
+  margin-right: $uni-spacing-row-lg;
+}
+
+.margin-top-sm {
+  margin-top: $uni-spacing-col-sm;
+}
+
+.margin-top-base {
+  margin-top: $uni-spacing-col-base;
+}
+
+.margin-top-lg {
+  margin-top: $uni-spacing-col-lg;
+}
+
+.margin-bottom-sm {
+  margin-bottom: $uni-spacing-col-sm;
+}
+
+.margin-bottom-base {
+  margin-bottom: $uni-spacing-col-base;
+}
+
+.margin-bottom-lg {
+  margin-bottom: $uni-spacing-col-lg;
+}
+
+.underline::after {
+  content: '';
+  background-color: #eee;
+  height: 1rpx;
+  width: 100%;
+  display: block;
+}
+
